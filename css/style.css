@@ -1,0 +1,14 @@
+img{
+    width: 50px;
+    height: auto;
+}
+.fundomenu{
+    background-color: rgba(114, 104, 104, 0.785);
+}
+
+.minhafonte{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
