@@ -3,7 +3,7 @@ img{
     height: auto;
 }
 .fundomenu{
-    background-color: rgba(114, 104, 104, 0.785);
+    background-color: rgba(32, 176, 233, 0.836);
 }
 
 .minhafonte{
@@ -11,4 +11,8 @@ img{
   font-optical-sizing: auto;
   font-weight: 400px;
   font-style: normal;
+}
+
+.preto{
+  color: rgba(27, 26, 26, 0.904);
 }
