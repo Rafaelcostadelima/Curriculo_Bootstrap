@@ -1,36 +1,45 @@
-.lixo{
-    width: 50px;
-    height: auto;
-}
-.fundomenu{
-    background-color: rgba(32, 176, 233, 0.836);
+body {
+  background-color: rgba(103, 190, 224, 0.836);
 }
 
-.minhafonte{
+.lixo {
+  width: 50px;
+  height: auto;
+}
+
+.fundomenu {
+  background-color: rgba(32, 176, 233, 0.836);
+}
+
+.minhafonte {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400px;
   font-style: normal;
 }
 
-.preto{
+.preto {
   color: rgba(27, 26, 26, 0.904);
 }
 
-.contorno{
+.contorno {
   -webkit-text-stroke-width: 0.3px;
   -webkit-text-stroke-color: black;
 }
 
-.neutro{
+.neutro {
   -webkit-text-stroke-width: 0.2px;
   -webkit-text-stroke-color: antiquewhite;
 }
 
-.grande{
+.grande {
   font-size: 2rem;
 }
 
-.medio{
+.medio {
   font-size: 1.5rem;
+}
+
+#sobre {
+  margin-bottom: 15%;
 }
