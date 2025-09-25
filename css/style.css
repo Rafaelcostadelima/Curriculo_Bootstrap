@@ -79,11 +79,32 @@ footer {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 
-
-
 @media (max-width: 1200px) {
   .espaco {
     padding: 40px;
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .espaco{
+    padding: 35px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .fontemidia{
+    font-size: 0.9rem;
+  }
+
+  .espaco{
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 319px) {
+  .fontemidia{
+    font-size: 0.7rem;
   }
 }
