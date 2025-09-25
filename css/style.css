@@ -2,7 +2,7 @@ body {
   background-color: rgba(103, 190, 224, 0.836);
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
@@ -49,30 +49,41 @@ h1{
 }
 
 .contact-icon {
-    width: 80px;
-    height: 80px;
-    object-fit: contain; /* Garante que a imagem não fique distorcida */
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
 }
-footer{
+
+footer {
   display: flex;
   background-color: rgba(36, 116, 148, 0.836);
   justify-content: center;
 }
 
-.espaco{
+.espaco {
   padding: 50px;
+  font-size: 2rem;
 }
 
 .card-img-top {
-    aspect-ratio: 16 / 9; /* Garante que todas as imagens tenham a mesma proporção */
-    object-fit: cover;    /* Evita que a imagem seja esmagada ou esticada */
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .card {
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.15); /* Sombra mais pronunciada no hover */
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+
+@media (max-width: 1200px) {
+  .espaco {
+    padding: 40px;
+    font-size: 1.2rem;
+  }
 }
