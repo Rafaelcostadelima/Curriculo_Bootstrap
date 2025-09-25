@@ -2,6 +2,10 @@ body {
   background-color: rgba(103, 190, 224, 0.836);
 }
 
+h1{
+  text-align: center;
+}
+
 .lixo {
   width: 50px;
   height: auto;
@@ -41,5 +45,34 @@ body {
 }
 
 #sobre {
-  margin-bottom: 15%;
+  margin-bottom: 3%;
+}
+
+.contact-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain; /* Garante que a imagem não fique distorcida */
+}
+footer{
+  display: flex;
+  background-color: rgba(36, 116, 148, 0.836);
+  justify-content: center;
+}
+
+.espaco{
+  padding: 50px;
+}
+
+.card-img-top {
+    aspect-ratio: 16 / 9; /* Garante que todas as imagens tenham a mesma proporção */
+    object-fit: cover;    /* Evita que a imagem seja esmagada ou esticada */
+}
+
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15); /* Sombra mais pronunciada no hover */
 }
